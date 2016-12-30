@@ -51,7 +51,7 @@ handleCompanyRemove(i){
 render(){
     return(
        <div>
- <Header title="Company Managment"/>
+ <Header title="Company Managments"/>
  <Add onAdd={this.handleAdd.bind(this)}/>
  <CompanyList companies={this.state.companies} onCompanyClick={this.handleCompanyClick.bind(this)} onCompanyRemove={this.handleCompanyRemove.bind(this)} />
  <CompanyDetails currentCompany={this.state.selectedCompany}/>
